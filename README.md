@@ -22,9 +22,9 @@ First, have a plaintext file that you want to encrypt ready. Then run keygen for
 $ wc -c [plaintextfile]
 $ keygen [length] > mykey
 ```
-Then run the daemon on a port of your choice.
+Then run the daemon on a port of your choice in the background.
 ```bash
-$ otp_d [port#]
+$ otp_d [port#] &
 ```
 
 Then you can send a ciphertext to the daemon for a specified user and plaintext file.

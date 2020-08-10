@@ -1,0 +1,10 @@
+#!/bin/bash
+# Program name: compileall
+# Author: Louis Adams
+# Email: adamslou@oregonstate.edu
+# Due date: 2020-06-05
+# Description: This script compiles all executables for Program 4 - Dead Drop.
+
+gcc -std=c99 -Wall -pedantic-errors keygen.c -o keygen -lboost_date_time
+gcc -std=c99 -Wall -pedantic-errors otp.c -o otp -lboost_date_time
+gcc -std=c99 -Wall -pedantic-errors otp_d.c -o otp_d -lboost_date_time

@@ -36,3 +36,7 @@ Finally, you can get the most recent ciphertext for a specified user. You should
 ```bash
 $ otp get [username] [mykey] [port#]
 ```
+
+## Example Usage
+
+![screenshot1](img/one_time_pad.png)
